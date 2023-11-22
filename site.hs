@@ -20,7 +20,7 @@ main = hakyllWith config $ do
         route   idRoute
         compile compressCssCompiler
 
-    match (fromList ["about.rst", "contact.markdown"]) $ do
+    match (fromList ["about.md", "contact.markdown"]) $ do
         route   $ setExtension "html"
         compile $ pandocCompiler
             >>= loadAndApplyTemplate "templates/default.html" defaultContext
@@ -67,5 +67,5 @@ main = hakyllWith config $ do
 --------------------------------------------------------------------------------
 postCtx :: Context String
 postCtx =
-    dateField "date" "%B %e, %Y" `mappend`
+    dateField "date" "%e/%m/%Y" `mappend`
     defaultContext
