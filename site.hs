@@ -33,13 +33,21 @@ main = hakyllWith config $ do
             >>= loadAndApplyTemplate "templates/default.html" postCtx
             >>= relativizeUrls
 
+
+    match "lecturas/*" $ do
+        route $ setExtension "html"
+        compile $ pandocCompiler
+            >>= loadAndApplyTemplate "templates/post.html"    postCtx
+            >>= loadAndApplyTemplate "templates/default.html" postCtx
+            >>= relativizeUrls
+
     create ["archive.html"] $ do
         route idRoute
         compile $ do
             posts <- recentFirst =<< loadAll "posts/*"
             let archiveCtx =
                     listField "posts" postCtx (return posts) `mappend`
-                    constField "title" "Archives"            `mappend`
+                    constField "title" "Archivo"             `mappend`
                     defaultContext
 
             makeItem ""
@@ -47,13 +55,29 @@ main = hakyllWith config $ do
                 >>= loadAndApplyTemplate "templates/default.html" archiveCtx
                 >>= relativizeUrls
 
+    create ["lecturas.html"] $ do
+      route $ setExtension "html"
+      compile $ do
+        lecturas <- recentFirst =<< loadAll "lecturas/*"
+        let librosCtx =
+              listField "lecturas" postCtx (return lecturas) `mappend`
+              constField "title" "Lecturas"                  `mappend`
+              defaultContext
+
+        makeItem ""
+            >>= loadAndApplyTemplate "templates/lecturas.html" librosCtx
+            >>= loadAndApplyTemplate "templates/default.html" librosCtx
+            >>= relativizeUrls
+
 
     match "index.html" $ do
         route idRoute
         compile $ do
             posts <- recentFirst =<< loadAll "posts/*"
+            lecturas <- recentFirst =<< loadAll "lecturas/*"
             let indexCtx =
-                    listField "posts" postCtx (return posts) `mappend`
+                    listField "posts" postCtx (return posts)       `mappend`
+                    listField "lecturas" postCtx (return lecturas) `mappend`
                     defaultContext
 
             getResourceBody

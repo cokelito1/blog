@@ -1,5 +1,5 @@
 ---
-title: Contact
+title: Contacto
 ---
 
 Me puedes encontrar en los siguientes sitios
