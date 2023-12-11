@@ -11,7 +11,7 @@ En construcción
 <ul>
     <li>Murakami logra describir unos paisajes hermosos con la característica melancolía que asocio a muchas obras japonesas. No sabia describir esta melancolía con otra palabra que
     no sea asfixiante.</li>
-<ul>
+</ul>
 
 # Citas
 <ol>
