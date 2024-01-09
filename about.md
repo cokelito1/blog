@@ -8,7 +8,7 @@ esto me conozcas por ese nombre. También es posible que me conozcas por otros n
 
 Actualmente estoy estudiando [Ingeniería Civil Matemática](https://matematica.usm.cl) en la [Universidad Técnica Federico Santa Maria](https://usm.cl). Mis intereses principales son la tecnología, la literatura y el café.
 
-Ahora mismo la media que he estoy consumiendo es
+Ahora mismo la media que estoy consumiendo es
 <ul>
     <li> [Tokio Blues](/lecturas/2023-12-11-Haruki%20Murakami%20-%20Tokio%20Blues%20%28Norwegian%20Wood%29.html) </li>
     <li> [Shin Megami Tensei: Strange Journey Redux](https://es.wikipedia.org/wiki/Shin_Megami_Tensei:_Strange_Journey) </li>
