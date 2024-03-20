@@ -10,9 +10,8 @@ Actualmente estoy estudiando [Ingeniería Civil Matemática](https://matematica.
 
 Ahora mismo la media que estoy consumiendo es
 <ul>
-    <li> [Tokio Blues](/lecturas/2023-12-11-Haruki%20Murakami%20-%20Tokio%20Blues%20%28Norwegian%20Wood%29.html) </li>
     <li> [Shin Megami Tensei: Strange Journey Redux](https://es.wikipedia.org/wiki/Shin_Megami_Tensei:_Strange_Journey) </li>
     <li> [Persona 4 Golden](https://es.wikipedia.org/wiki/Shin_Megami_Tensei:_Persona_4) </li>
 </ul>
 
-El café que he estado consumiendo esta semana es [Fazenda Bora Arara - Mandrake](https://cafemandrake.cl/producto/cafe-fazenda-bora-catucai-rojo-2/)
+El café que he estado consumiendo esta semana es [Reginaldo Costalonga - Mandrake](https://cafemandrake.cl/producto/reginaldo-costalonga/)

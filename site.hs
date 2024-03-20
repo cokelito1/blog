@@ -14,7 +14,7 @@ main :: IO ()
 main = hakyllWith config $ do
     match "images/*" $ do
         route   idRoute
-        compile copyFileCompiler
+        compile $ copyFileCompiler
 
     match "css/*" $ do
         route   idRoute
@@ -40,6 +40,10 @@ main = hakyllWith config $ do
             >>= loadAndApplyTemplate "templates/post.html"    postCtx
             >>= loadAndApplyTemplate "templates/default.html" postCtx
             >>= relativizeUrls
+
+    match "ayudantias/*" $ do
+      route idRoute
+      compile copyFileCompiler
 
     create ["archive.html"] $ do
         route idRoute
@@ -69,6 +73,20 @@ main = hakyllWith config $ do
             >>= loadAndApplyTemplate "templates/default.html" librosCtx
             >>= relativizeUrls
 
+    create ["ayudantias_al_papel.html"] $ do
+      route $ setExtension "html"
+      compile $ do
+        ayudantias <- getMatches "ayudantias/*"
+        let ayu = fmap(\ident -> Item ident (toFilePath ident)) ayudantias
+        let librosCtx =
+              listField "ayudantias" postCtx (return ayu) `mappend`
+              constField "title" "Ayudantias"                  `mappend`
+              defaultContext
+
+        makeItem ""
+            >>= loadAndApplyTemplate "templates/ayudantias.html" librosCtx
+            >>= loadAndApplyTemplate "templates/default.html" librosCtx
+            >>= relativizeUrls
 
     match "index.html" $ do
         route idRoute
