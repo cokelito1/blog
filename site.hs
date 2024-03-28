@@ -45,6 +45,14 @@ main = hakyllWith config $ do
       route idRoute
       compile copyFileCompiler
 
+    match "ayudantias/mat023/*" $ do
+      route idRoute
+      compile copyFileCompiler
+
+    match "ayudantias/mat021/*" $ do
+      route idRoute
+      compile copyFileCompiler
+
     create ["archive.html"] $ do
         route idRoute
         compile $ do
@@ -76,10 +84,13 @@ main = hakyllWith config $ do
     create ["ayudantias_al_papel.html"] $ do
       route $ setExtension "html"
       compile $ do
-        ayudantias <- getMatches "ayudantias/*"
+        ayudantias <- getMatches "ayudantias/mat023/*"
+        ayuss <- getMatches "ayudantias/mat021/*"
         let ayu = fmap(\ident -> Item ident (toFilePath ident)) ayudantias
+        let ayus = fmap(\ident -> Item ident (toFilePath ident)) ayuss
         let librosCtx =
-              listField "ayudantias" postCtx (return ayu) `mappend`
+              listField "ayudantias-023"   postCtx (return ayu) `mappend`
+              listField "ayudantias-021"   postCtx (return ayus) `mappend`
               constField "title" "Ayudantias"                  `mappend`
               defaultContext
 

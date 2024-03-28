@@ -10,8 +10,8 @@ Actualmente estoy estudiando [Ingeniería Civil Matemática](https://matematica.
 
 Ahora mismo la media que estoy consumiendo es
 <ul>
-    <li> [Shin Megami Tensei: Strange Journey Redux](https://es.wikipedia.org/wiki/Shin_Megami_Tensei:_Strange_Journey) </li>
-    <li> [Persona 4 Golden](https://es.wikipedia.org/wiki/Shin_Megami_Tensei:_Persona_4) </li>
+    <li> [Sekiro: Shadows Die Twice](https://en.wikipedia.org/wiki/Sekiro:_Shadows_Die_Twice) </li>
+    <li> [Kafka en la Orilla - Haruki Murakami](https://en.wikipedia.org/wiki/Kafka_on_the_Shore)</li>
 </ul>
 
-El café que he estado consumiendo esta semana es [Reginaldo Costalonga - Mandrake](https://cafemandrake.cl/producto/reginaldo-costalonga/)
+El café que he estado consumiendo esta semana es [Etiopía, Kenisa Lote #9 - Singular Coffee Roasters](https://singularcoffee.cl/collections/origen-etiopia/products/etiopia-kenisa-lote-9)
