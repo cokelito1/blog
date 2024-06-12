@@ -103,7 +103,8 @@ main = hakyllWith config $ do
         route idRoute
         compile $ do
             posts <- recentFirst =<< loadAll "posts/*"
-            lecturas <- recentFirst =<< loadAll "lecturas/*"
+            ayus <- getMatches "ayudantias/mat023/*"
+            let lecturas = fmap(\ident -> Item ident (toFilePath ident)) ayus
             let indexCtx =
                     listField "posts" postCtx (return posts)       `mappend`
                     listField "lecturas" postCtx (return lecturas) `mappend`
