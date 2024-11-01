@@ -10,8 +10,10 @@ Actualmente estoy estudiando [Ingeniería Civil Matemática](https://matematica.
 
 Ahora mismo la media que estoy consumiendo es
 <ul>
-    <li> [Sekiro: Shadows Die Twice](https://en.wikipedia.org/wiki/Sekiro:_Shadows_Die_Twice) </li>
-    <li> [Kafka en la Orilla - Haruki Murakami](https://en.wikipedia.org/wiki/Kafka_on_the_Shore)</li>
+    <li> [Metaphor: ReFantazio](https://store.steampowered.com/app/2679460/Metaphor_ReFantazio/) </li>
+    <li> [La ciudad y sus muros inciertos](https://www.planetadelibros.cl/libro-la-ciudad-y-sus-muros-inciertos/396449)</li>
 </ul>
 
-El café que he estado consumiendo esta semana es [Etiopía, Kenisa Lote #9 - Singular Coffee Roasters](https://singularcoffee.cl/collections/origen-etiopia/products/etiopia-kenisa-lote-9)
+El café que he estado consumiendo esta semana es [Taller cafe - Tremendus Red Bourbon](https://taller.cafe/collections/cafe-en-grano/products/bourbon-sidra) 
+
+Ultima actualizacion: 2024/11/01

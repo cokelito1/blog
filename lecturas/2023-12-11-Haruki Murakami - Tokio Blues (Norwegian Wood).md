@@ -4,9 +4,6 @@ date: 22/11/2023
 author: Jorge Bravo
 ---
 
-# Reseña
-En construcción
-
 # Pensamientos dispersos durante la lectura
 <ul>
     <li>Murakami logra describir unos paisajes hermosos con la característica melancolía que asocio a muchas obras japonesas. No sabia describir esta melancolía con otra palabra que
